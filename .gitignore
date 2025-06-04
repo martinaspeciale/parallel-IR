@@ -7,3 +7,7 @@
 # Optional: __pycache__, logs, etc.
 __pycache__/
 *.log
+
+# Ignore the indexes/ folder 
+indexes/
+
