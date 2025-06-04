@@ -1,0 +1,16 @@
+# Core IR / ML
+python-terrier
+ir_datasets
+ir_measures
+scikit-learn
+nltk
+dill
+pybind11
+tqdm
+pympler
+
+# Jupyter support
+ipykernel
+matplotlib
+pandas
+seaborn
