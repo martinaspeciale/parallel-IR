@@ -25,6 +25,26 @@
 - `nltk`, `pandas`, `scikit-learn`, `tqdm`
 - Designed and tested in the Kaggle notebook environment.
 
+## ⚙️ Setup
+
+To run this project locally, it is recommended to use a Python virtual environment.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/martinaspeciale/parallel-IR.git
+cd parallel-IR
+
+# 2. Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate  
+
+# 3. Install all required dependencies
+pip install -r requirements.txt
+
+# 4. (Optional) Register Jupyter kernel for the notebook
+python -m ipykernel install --user --name=parallelIR --display-name "Python (parallelIR)"
+
+
 ## 👥 Authors
 
 Filippo Lucchesi, Francesco Pio Crispino, Martina Speciale
