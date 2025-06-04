@@ -19,11 +19,27 @@
 - **Relevance Feedback**  
   Rocchio-style feedback algorithm to refine query results based on user preferences.
 
+
+## 📚 Dataset
+
+This project uses the **ANTIQUE** dataset, a large-scale benchmark for ad-hoc information retrieval with natural language queries.
+
+- **Dataset name**: `antique/test`
+- **Source**: [`ir_datasets`](https://ir-datasets.com/antique.html)
+- **Documents**: ~403,666
+- **Queries**: Natural-language, open-ended
+- **Relevance Judgments**: Binary qrels for a subset of queries
+- **Use case**: Evaluating classic retrieval models (TF-IDF, BM25) in a realistic, large-scale IR setting
+
+The dataset is automatically downloaded and handled via the `ir_datasets` Python package.
+
+
 ## 🚀 Technologies
 
 - `python-terrier`, `ir_datasets`, `ir_measures`
 - `nltk`, `pandas`, `scikit-learn`, `tqdm`
 - Designed and tested in the Kaggle notebook environment.
+
 
 ## ⚙️ Setup
 
