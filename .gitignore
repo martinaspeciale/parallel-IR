@@ -11,3 +11,6 @@ __pycache__/
 # Ignore the indexes/ folder 
 indexes/
 
+# Ignore serialized files stored in 'cache/' 
+cache/
+
